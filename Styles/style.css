@@ -81,6 +81,10 @@ body{
 
 
 /* featured products styles */
+.featured-products-section{
+    margin-bottom: 130px;
+}
+
 .featured-products{
     width: 75%;
 }
@@ -122,6 +126,64 @@ body{
     color: #777;
     font-weight: 600;
 }
+
+/* great-tea-section styles */
+.great-tea-section{
+    margin-bottom: 130px;
+}
+
+.blank-1{
+    width: 238px;
+    height: 136px;
+    border-radius: 10px;
+    opacity: 0.1;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    margin-bottom: 30px;
+}
+
+.lemon-tea{
+    padding: 40px 45px;
+    border-radius: 10px;
+    background: rgba(87, 118, 57, 0.10);
+}
+
+
+.orange-tea{
+    padding: 40px 30px;
+    border-radius: 10px;
+    background: rgba(87, 118, 57, 0.10);
+    margin-bottom: 30px;
+}
+
+.blank-2{
+    width: 238px;
+    height: 136px;
+    border-radius: 10px;
+    opacity: 0.1;
+    background: linear-gradient(45deg, blue, red);
+}
+
+.great-tea-texts h1{
+    color: #1C1C1C;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.great-tea-texts p{
+    color: #777;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.great-tea-texts h4{
+    color: #1C1C1C;
+    font-size: 20px;
+    font-weight: 800;
+}
+
 
 @media all and (max-width:576px){
 
@@ -169,16 +231,42 @@ body{
     }
 
     /* featured products styles */
-.featured-products{
-    width: 100%;
-}
-.featured-products h1{
-    font-size: 35px;
-    font-weight: 800;
-    margin-bottom: 20px;
+    .featured-products-section{
+        margin-bottom: 80px;
+    }
+
+    .featured-products{
+        width: 100%;
+    }
+    .featured-products h1{
+        font-size: 35px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .product{
+        text-align: center;
+    }
+
+    /* great-tea-section styles */
+.great-tea-section{
+    margin-bottom: 80px;
+    text-align: center;
 }
 
-.product{
-     text-align: center;
+.lemon-tea{
+    margin-bottom: 30px;
+}
+
+.blank-2{
+    margin-bottom: 30px;
+}
+
+.great-tea-texts h1{
+    font-size: 30px;
+}
+
+.great-tea-texts h4{
+    font-size: 18px;
 }
 }
