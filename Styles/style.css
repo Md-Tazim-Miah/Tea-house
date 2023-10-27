@@ -184,6 +184,104 @@ body{
     font-weight: 800;
 }
 
+/* super clients section styles */
+.super-clients{
+    padding: 50px;
+    border-radius: 10px;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+}
+
+.super-clients-left h1{
+    color: #F4F4F4;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.super-clients-left p{
+    color: #F4F4F4;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.show-all-btn{
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.show-all-btn-text{
+    font-size: 20px;
+    font-weight: 900;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.invisible-clients{
+    margin-left: 130px;
+    opacity: 0.4;
+}
+
+.visible-client-parent{
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+}
+
+
+.visible-client{
+    width: 500px;
+    margin-left: 20px;
+}
+
+
+.client-comment{
+    padding: 40px 40px 30px 50px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.client-comment>p{
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.client-name h4{
+    color: #1C1C1C;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.client-name p{
+    color: #5D5A6F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.client-image img{
+    padding: 4px;
+    border-radius: 50%;
+    background: #FFF;
+
+}
+
+.bg_cup-img{
+    position: absolute;
+    bottom: 30px;
+}
+
 
 @media all and (max-width:576px){
 
@@ -249,24 +347,80 @@ body{
     }
 
     /* great-tea-section styles */
-.great-tea-section{
-    margin-bottom: 80px;
+    .great-tea-section{
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .lemon-tea{
+        margin-bottom: 30px;
+    }
+
+    .blank-2{
+        margin-bottom: 30px;
+    }
+
+    .great-tea-texts h1{
+        font-size: 30px;
+    }
+
+    .great-tea-texts h4{
+        font-size: 18px;
+    }
+
+    /* super clients section styles */
+.super-clients{
+    padding: 50px 10px;
     text-align: center;
 }
 
-.lemon-tea{
+.super-clients-left h1{
+    color: #F4F4F4;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.super-clients-left p{
+    color: #F4F4F4;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
     margin-bottom: 30px;
 }
 
-.blank-2{
-    margin-bottom: 30px;
+.show-all-btn{
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
 }
 
-.great-tea-texts h1{
-    font-size: 30px;
+.show-all-btn-text{
+    font-size: 20px;
+    font-weight: 900;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.great-tea-texts h4{
-    font-size: 18px;
+.super-clients-right{
+    margin-top: 100px;
+}
+
+.invisible-clients{
+    margin-left: 0px;
+}
+
+
+.visible-client{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.bg_cup-img{
+    top: 50px;
+    right: 0px;
 }
 }
